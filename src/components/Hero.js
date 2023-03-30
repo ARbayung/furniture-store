@@ -7,11 +7,6 @@ import {
 } from "./HeroStyles";
   
 const Hero = () => {
-
-  const handleScrollDown = () => {
-    window.scrollTo({top: window.innerHeight, behavior: 'smooth'});
-  };
-
   return (
     <HeroBox>
       <HeroContainer>
@@ -22,7 +17,7 @@ const Hero = () => {
         textAlign: "center",
         padding: "6px" }}><span style={{ color: "#B69A00" }}>Beautiful</span> furniture for every room.<br></br>
          Explore our collection.</h1>
-         <DownButton onClick={handleScrollDown}><i className="fa-solid fa-arrow-down fa-fade fa-2xl"></i></DownButton>
+         <DownButton><i className="fa-solid fa-arrow-down fa-fade fa-2xl"></i></DownButton>
 
       </HeroContainer>
     </HeroBox>
