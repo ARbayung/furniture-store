@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 export default function Navbar() {
     return (
@@ -18,19 +19,19 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <Link className="nav-link active" aria-current="page" to="/Landing">Home</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <Link className="nav-link active dropdown-toggle" to="/Results" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Collections
-                                </a>
+                                </Link>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Sofas & armchairs</a></li>
-                                    <li><a className="dropdown-item" href="#">Tables & chairs</a></li>
-                                    <li><a className="dropdown-item" href="#">Bookcases & shelves</a></li>
-                                    <li><a className="dropdown-item" href="#">Kitchen appliances</a></li>
-                                    <li><a className="dropdown-item" href="#">Bedroom furniture</a></li>
-                                    <li><a className="dropdown-item" href="#">Lighting</a></li>
+                                    <li><Link className="dropdown-item" to="/Results">Sofas & armchairs</Link></li>
+                                    <li><Link className="dropdown-item" to="/Results">Tables & chairs</Link></li>
+                                    <li><Link className="dropdown-item" to="/Results">Bookcases & shelves</Link></li>
+                                    <li><Link className="dropdown-item" to="/Results">Kitchen appliances</Link></li>
+                                    <li><Link className="dropdown-item" to="/Results">Bedroom furniture</Link></li>
+                                    <li><Link className="dropdown-item" to="/Results">Lighting</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
