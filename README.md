@@ -1,30 +1,3 @@
-# Furniture Store E-commerce React App
-
-Application built with React, JavaScript, and CSS for a Furniture Store.
-
-# Project Status
-Deployed and live with React.
-
-This project is currently deployed and live. Users can search with keywords etc and see visual results of items of furniture according to search. Functionality to sort by additional parameters is in progress.
-
-### Project Screen Shot(s);
-
-# Screen shot of landing page 
-[ PRETEND SCREEN SHOT IS HERE ]
-# Screen shot of search results page
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
-# Screen shot of About page
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
-
-# Deployed Link 
-
-[ PRETEND link IS HERE ]
-
-# Github repository link 
-
-[ PRETEND link IS HERE ]
-
-### Installation and Setup Instructions
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -95,41 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-### Installation and Setup Instructions
-Example:
-Clone down this repository. You will need node and npm installed globally on your machine.
-
-Installation:
-
-npm install
-
-To Run Test Suite:
-
-npm test
-
-To Start Server:
-
-npm start
-
-To Visit App:
-
-localhost:3000/ideas
-
-## Reflection
-This project was part of our Edx Frontend web developemnt course project. We had to creat an app with following criteria
-* Must use ReactJS.
-* Must use Node.
-* Must have both GET and POST routes for retrieving and adding new data.
-* Must deploy this application using Netlify.
-* Must utilize at least two libraries, packages, or technologies that we haven't discussed.
-* Must have a polished front end/UI.
-* Must meet good quality coding standards (indentation, scoping, naming).
-* Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
-
-We decided as a team to build an Ecommerce site that could be used to integrate with other applications and future applications. 
-Project goals included using technologies learned up until this point and familiarizing ourselves with documentation for new features, libraries etc.
-Learning and applying two new libraries added to the challnge and was a great opportunity to delve further into the world of programming.
-We had previously only worked on Github, so learning Netlify and using that for deployemnt was a great learning curve. 
-
-The technologies implemented in this project are React, Nodesjs, Nextjs and a significant amount of VanillaJS, JSX, and CSS. We chose to use the create-react-app boilerplate to minimize initial setup and invest more time in diving into the technological rabbit holes.
