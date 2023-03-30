@@ -19,10 +19,14 @@ export const SubscribeText = styled.h1`
   width: 600px;
   text-align: center; 
   margin-top: -50px;
-  margin-left: 400px;
+  margin-left: 380px;
   font-weight: 500;
   font-family: 'Noto Serif JP', serif;
  
+  @media screen and (min-width: 1600px) {
+    margin-left: 600px;
+  }
+
 `;
 
 export const Subscribe = styled.input`
