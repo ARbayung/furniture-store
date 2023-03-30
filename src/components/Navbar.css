@@ -1,0 +1,140 @@
+.navbar,
+.modal {
+    font-family:
+        Leelawadee UI, sans serif;
+}
+
+.navbar-brand {
+    font-size: 1.8rem !important;
+    margin-left: 20px;
+}
+
+.nav-item {
+    font-size: 1.1rem;
+}
+
+body {
+    /* background-image: url('C:\Users\adamb\OneDrive\ecommerce-furniture\photo-1555041469-a586c61ea9bc.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* Basket modal */
+
+.basket-icon {
+    margin-left: 2px;
+}
+
+.search-icon {
+    margin-right: 2px;
+}
+
+.profile-icon {
+    margin-left: 4px;
+}
+
+.cart-title {
+    border: 1;
+    color: #666;
+    font-size: 0.8rem;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.item-text {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.qty {
+    vertical-align: middle;
+    text-align: center;
+    max-width: 2.5rem;
+}
+
+.price {
+    margin-left: 1rem;
+}
+
+.total-price {
+    font-weight: bold;
+}
+
+.btn-close-dark {
+    margin-right: 10px;
+}
+
+/* Sign in modal */
+
+.modal-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.btn-close {
+    position: absolute;
+    right: 0;
+    padding: 1em;
+}
+
+.myform {
+    padding: 2em;
+    max-width: 100%;
+    color: black;
+}
+
+@media (max-width: 576px) {
+    .myform {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+.form-control:focus {
+    box-shadow: inset 0 -1px 0 black;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.form-control {
+    background-color: inherit;
+    color: black;
+    padding-left: 0;
+    border: 0;
+    border-radius: 1;
+    border-bottom: 1px solid black;
+}
+
+.myform .btn {
+    width: 100%;
+    font-weight: 800;
+    background-color: black;
+    border-radius: 0;
+    padding: 0.5em 0;
+}
+
+.myform .btn:hover {
+    background-color: inherit;
+    color: black;
+}
+
+.faded {
+    text-align: center;
+    padding-top: 2em;
+    color: grey;
+}
+
+.signup {
+    color: black;
+    text-decoration: none;
+}
+
+.signup:hover {
+    color: green;
+}
