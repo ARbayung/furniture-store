@@ -3,21 +3,18 @@ import styled from 'styled-components';
 export const Box = styled.div`
   padding: 70px 60px 30px 60px;;
   background: white;
-  position: absolute;
-  top: 1470px;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: 430px;
   display: relative;
-  
+
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
   @media screen and (min-width: 1400px) {
-    top: 1490px;
   }
   @media screen and (min-width: 1600px) {
-    top: 1760px;
   }
 `;
 
