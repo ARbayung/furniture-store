@@ -24,8 +24,8 @@ const Footer = () => {
           <Column>
             <Heading className="logo" style={{
               color: "black",
-              fontWeight: "500",
-            }}>P-1 <br></br> Designs</Heading>
+              fontWeight: "600",
+            }}>Furnishly</Heading>
             <CurrencyList name="currency" id="currency">
                 <option value="gbp">GBP</option>
                 <option value="gbp">USD</option>

@@ -1,3 +1,4 @@
+import Hero from './components/Hero';
 import Results from "./components/Results-page";
 import Footer from './components/Footer';
 import Navbar from "./components/Navbar"
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Hero />
       <Results/>
       <Body/>
 

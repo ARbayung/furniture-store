@@ -3,21 +3,14 @@ import styled from 'styled-components';
 export const Box = styled.div`
   padding: 70px 60px 30px 60px;;
   background: white;
-  position: absolute;
-  top: 1470px;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: 430px;
   display: relative;
-  
+
   @media (max-width: 1000px) {
     padding: 70px 30px;
-  }
-  @media screen and (min-width: 1400px) {
-    top: 1490px;
-  }
-  @media screen and (min-width: 1600px) {
-    top: 1760px;
   }
 `;
 
@@ -26,18 +19,15 @@ export const SubscribeText = styled.h1`
   width: 600px;
   text-align: center; 
   margin-top: -50px;
-  margin-left: 400px;
+  margin-left: 380px;
   font-weight: 500;
   font-family: 'Noto Serif JP', serif;
-
-  @media screen and (min-width: 1400px) {
-    margin-left: 400px;
-  }
-  @media screen and (min-width: 1600px) {
-      margin-left: 587px;
-  }
  
-`
+  @media screen and (min-width: 1600px) {
+    margin-left: 600px;
+  }
+
+`;
 
 export const Subscribe = styled.input`
     width: 620px;
@@ -51,12 +41,7 @@ export const Subscribe = styled.input`
     margin-bottom: 35px;
     margin-left: 15px;
 
-
-    @media screen and (min-width: 1400px) {
-    }
-    @media screen and (min-width: 1600px) {
-    }
-`
+`;
 
 export const SubscribeBtn = styled.button`
   height: 39px;
@@ -67,7 +52,7 @@ export const SubscribeBtn = styled.button`
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-`
+`;
    
 export const Container = styled.div`
     display: flex;
@@ -76,7 +61,7 @@ export const Container = styled.div`
     max-width: 1000px;
     margin: 0 auto;
     /* background: red; */
-`
+`;
 
 export const CurrencyList = styled.select`
     background-color: #E7E7E7;
