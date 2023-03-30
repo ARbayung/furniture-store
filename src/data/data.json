@@ -1,0 +1,71 @@
+{
+    
+    "About": {
+      "paragraph": "We are a team of agile developers, working on one project at a time. We are interested in building our portfolio to become competent leading developers in this ever expanding tech world",
+      "Why": [
+        "Available from Day One to Deployment!",
+        "Customised to YOUR needs!",
+        "Available for short or Long term Initiatives",
+        "wE offer the same Transparency as Internal Teams"
+      ],
+      "Why2": [
+        "Competitive outsourcing Developer rates",
+        "High level of expertise",
+        "Tech and Industry expert ",
+        "Dedicated agile team of developers"
+      ]
+    },
+    "Team": [
+      {
+        "img": "public/img/git.png",
+        "name": "Aisha Kholwadia",
+        "job": "Developer",
+        "git": "https://github.com/AishaSK",
+        "information": "Aisha...."
+      },
+      {
+        "img": "public/img/git.png",
+        "name": "Abiskar Rai",
+        "job": "Developer",
+        "git": "https://github.com/ARbayung",
+        "information":"Project Lead and contributed to ....."
+      },
+      {
+        "img": "public/img/git.png",
+        "name": "Alice Katinas",
+        "job": "Developer",
+        "git": "https://github.com/AliceAngelica",
+        "information":"Alice is a whizz at JavaScript and Css, she has been working..."
+      },
+      {
+        "img": "public/img/git.png",
+        "name": "Adam Benkada",
+        "job": "Developer",
+        "git" : "https://github.com/adammbnitro",
+        "information":"Adam loves ...."
+      },
+      {
+        "img": "public/img/git.png",
+        "name": "Adesoye Rhodes",
+        "job": "Developer",
+        "git": "https://github.com/giorhodes",
+        "information":"Adesoye likes ...."
+      },
+      {
+        "img": "public/img/git.png",
+        "name": "Adnan ",
+        "job": "Developer",
+        "git": "https://github.com/adnan12398" ,
+        "information":"Adnan has been working...."
+      },
+      {
+        "img": "public/img/git.png",
+        "name": "Ajabofu ",
+        "job": "Developer",
+        "git": "https://github.com/Themchief", 
+        "information": "Ajabofu loves to... "
+        
+
+      }
+    ]
+  }
