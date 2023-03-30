@@ -10,28 +10,28 @@ const ImageGallery = () => {
         <div className="gallery">
           <figure className="gallery__item-1">
             <img
-              src="https://www.ikea.com/ext/ingkadam/m/3094bf9b3a4500d5/original/PH173350-crop002.jpg"
+              src="https://www.decorilla.com/online-decorating/wp-content/uploads/2014/07/modern-minimalist-style-living-room-decorating-with-shaggy-rug-best-interior-design-ideas.jpg"
               alt="Gallery 2 1"
               className="gallery__img"
             />
           </figure>
           <figure className="gallery__item-2">
             <img
-              src="https://www.ikea.com/ext/ingkadam/m/1416f733a425534f/original/PH175078-crop001.jpg"
+              src="https://www.decorilla.com/online-decorating/wp-content/uploads/2022/07/Contemporary-interior-design-and-decor-Urbanology-Designs.jpg"
               alt="Gallery 2 2"
               className="gallery__img"
             />
           </figure>
           <figure className="gallery__item-3">
             <img
-              src="https://www.ikea.com/ext/ingkadam/m/62756b64298145fb/original/PH173616-crop001.jpg"
+              src="https://cdn.home-designing.com/wp-content/uploads/2019/01/bathroom-ideas-modern.jpg"
               alt="Gallery 2  3"
               className="gallery__img"
             />
           </figure>
           <figure className="gallery__item-4">
             <img
-              src="https://www.ikea.com/ext/ingkadam/m/768cda926421bea4/original/PH172953-crop001.jpg"
+              src="https://hips.hearstapps.com/hmg-prod/images/backyard-decorating-ideas-black-white-palette-1649788007.jpg"
               alt="Gallery 2  4"
               className="gallery__img"
             />
